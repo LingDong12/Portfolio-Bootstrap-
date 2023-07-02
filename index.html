@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="style.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <title>Portfolio</title>
+    </head>
+
+    <body>
+
+        <!--1,Nav bar
+            -icon 
+
+        -->
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <img class="logo" src="imgs/girl-icon-me-carton.png">
+                    <span class="myName"><strong>Luna Dong</strong></span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item active">
+                            <a class="nav-link text-primary" href="#home">Home <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-primary" href="#story">Story</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-primary" href="#fun">Fun Facts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-primary" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-primary" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-primary" href="#contact" id="contactMe">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section class="home-page" id="home">
+            <div class="container-fluid home-container"><!--Home page-->
+
+                <div class="home-contents"><!--Home-content-->
+                    <div>
+                        <h4 class="top" data-container="body" data-toggle="popover" data-placement="top"
+                            data-content="Let me help you code a website you love.">Developer</h4>
+                        </h4>
+                    </div>
+
+                    <img src="imgs/image-home.png" class="img-fluid  myPortrait" alt="Responsive image">
+
+                    <div>
+                        <h4 class="bottom" data-container="body" data-toggle="popover" data-placement="right"
+                            data-content="Do you want a stunning website, I can help you design one.">Designer</h4>
+                    </div>
+                </div><!--Home contents-->
+
+
+                <!--medias: flex-->
+                <div class="media">
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="#"><img src="imgs/facebook-icon.png" alt="facebook"></a>
+                        </li>
+                        <li class="list-group-item"><a href="#"><img src="imgs/google-icon.png" alt="gmail"></a></li>
+                        <li class="list-group-item">
+                            <a href="#"><img src="imgs/linkedin-icon.png" alt="linkedin"></a>
+                        </li>
+
+                    </ul>
+                </div><!--media-->
+
+
+            </div><!--Home page-->
+
+        </section>
+
+        <!--story section-->
+        <section class="story-section" id="story" id="story">
+            <div class="container-fluid">
+                <div class="story-content1">
+
+                    <div class="text-box">
+                        <h1 class=" text-center"><strong> My Story</strong></h1>
+                        <p class="text-info">
+                            I love creating visually stunning websites and experiences that help people
+                            create
+                            stunning and
+                            purposeful design. I
+                            strive to create meaningful user experiences benefit to people.</p>
+                    </div>
+                </div>
+
+
+                <div class="story-content2">
+                    <div class="container">
+                        <div class="row justify-content-md-center center-block">
+                            <div class="col col-md-4 col-sm-12">
+                                <img src="imgs/Me in museum.png" class="glass-image float-left img-thumbnail"
+                                    alt="glassed me">
+                            </div>
+
+                            <div class="col-md-8">
+                                <p class="text-info intro">
+                                    I found my passion in web design and development while pursuing Software Development
+                                    in the
+                                    Year Up. so I changed my
+                                    major to web development after graduated Year Up.
+                                    It is fun and I learned both coding and design together
+                                    while learning
+                                    and working in different projects. I took web development
+                                    courses in Udemy and UX design in Coursera. Because of it, I
+                                    have a unique perspective when tackling design problems and even
+                                    life.</p>
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+
+                </div><!-- story content2 -->
+            </div>
+        </section>
+
+        <section class="fun-facts-section" id="fun">
+            <!-- -promise:
+                        -carousel -->
+            <div id="fun-fact">
+                <div class="container-fluid">
+
+                    <!--Function setion title-->
+                    <div id="fun-setion-title">
+                        <svg class="heart" width="59" height="67" viewBox="0 0 59 67" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M45.8195 11.4959C46.884 13.0209 47.8659 14.6011 48.7715 16.2244C55.4715 28.2664 57.4364 42.2918 56.8382 55.9583C41.7331 51.9799 26.0513 47.6777 13.3636 38.2133C10.5707 36.1315 7.82315 33.8266 5.55932 31.1655C4.57842 30.0077 3.64842 28.7467 3.01894 27.3589C2.27019 25.71 2.36153 25.19 3.70783 23.9204C9.3409 18.6023 17.2513 22.3794 22.2237 26.5149C29.0233 32.1725 34.8235 39.0731 39.6115 46.488C40.1327 47.292 40.8002 44.8631 40.8226 44.7638C41.0875 43.6352 41.4098 41.8707 40.9073 40.7662C37.2135 32.5831 34.554 23.5299 34.2104 14.5054C34.1188 12.1893 34.4066 9.96137 36.1205 8.22561C37.494 6.83547 39.6287 5.90437 41.524 6.76557C43.376 7.6115 44.699 9.88843 45.8195 11.4959ZM40.8875 0.0976418C37.3503 -0.173881 34.855 3.38653 33.7936 6.28718C32.4063 10.0816 32.164 14.3189 32.4261 18.3227C32.7217 22.8555 33.4265 27.3578 34.4971 31.7728C30.8953 27.3117 26.8657 23.1733 22.3956 19.6792C16.9482 15.4103 8.1867 12.2491 2.99 18.772C-1.44639 24.3397 0.319797 32.5225 4.65008 37.485C10.4786 44.1666 18.6256 48.9938 26.6181 52.6162C36.1481 56.9283 46.2783 59.7045 56.3706 62.362C56.3401 62.6538 56.314 62.9406 56.2853 63.2255C56.2278 63.7455 55.9165 66.3944 56.7916 66.4907C57.6453 66.5878 57.9555 63.7974 57.9962 63.4139C58.0497 62.8992 58.0963 62.3795 58.1494 61.8562C58.7186 60.4796 59.0927 57.7114 58.5596 56.6836C59.3703 43.4542 58.279 29.8877 53.3879 17.5356C52.0237 14.0875 50.3596 10.7419 48.3838 7.60587C46.7532 5.0124 44.3535 0.358188 40.8875 0.0976418Z"
+                                fill="#3A4F4B" />
+                        </svg>
+
+                        <h1 class="d-inline text-center">Fun Facts</h1>
+
+                        <svg class="heart" width="54" height="72" viewBox="0 0 54 72" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M46.3862 30.2397C45.7862 32 45.0929 33.7263 44.3195 35.4167C38.5729 47.9417 28.4262 57.8218 17.0529 65.4231C11.3262 50.8905 5.51961 35.7013 5.64628 19.8729C5.67294 16.3896 5.90628 12.8109 6.71294 9.41156C7.06627 7.93584 7.53294 6.44012 8.27961 5.11169C9.16627 3.53266 9.63962 3.29871 11.4596 3.63331C19.0796 5.02972 20.7129 13.6421 20.3196 20.0976C19.7796 28.9266 17.6463 37.6849 14.4996 45.9314C14.1596 46.8272 16.5129 45.9287 16.6062 45.8881C17.6729 45.4342 19.2863 44.6503 19.8796 43.5918C24.2929 35.7733 30.0196 28.274 37.0929 22.6591C38.9063 21.2154 40.8729 20.1295 43.2862 20.4848C45.2195 20.7701 47.2329 21.9406 47.6596 23.9782C48.0729 25.9718 47.0195 28.3853 46.3862 30.2397ZM52.6596 19.521C50.7862 16.5082 46.4395 16.6022 43.4729 17.4621C39.5929 18.5878 36.0329 20.8987 32.9596 23.4783C29.4796 26.3977 26.2662 29.6291 23.3396 33.1038C24.8062 27.5608 25.7596 21.8639 25.9329 16.193C26.1529 9.27559 23.5196 0.341248 15.1862 0.00930786C8.07291 -0.274635 2.51961 5.98954 1.07961 12.4163C-0.860385 21.0681 0.0662415 30.4923 1.87291 39.0793C4.0329 49.3141 7.78627 59.1243 11.6129 68.8338C11.3596 68.9817 11.1129 69.1304 10.8663 69.2757C10.4129 69.537 8.09293 70.8527 8.53293 71.6153C8.95959 72.3611 11.393 70.9607 11.7263 70.7667C12.1729 70.5055 12.6196 70.2355 13.0729 69.9689C14.5196 69.6136 16.9729 68.2779 17.4862 67.2401C28.6329 60.0688 38.9263 51.1644 45.9929 39.9145C47.9662 36.7751 49.6795 33.4544 51.0395 30.0064C52.1662 27.1576 54.4996 22.4698 52.6596 19.521Z"
+                                fill="#3A4F4B" />
+                        </svg>
+                    </div><!--Function setion title-->
+
+
+                    <!--Carosel-->
+                    <!-- Carousel wrapper -->
+                    <div id="carouselExampleCaptions" class="carousel slide" id="">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active rides" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="data:image/jpeg;base64,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"
+                                    class="d-block w-100" alt="mangas">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Japanese mangas</h5>
+                                    <p>Since I was a little girl, My favorite activities is collect japanese anime
+                                        character's stickers and mangas.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://th.bing.com/th/id/OIP.iQ-C9HfSmDa5BzhoefZ2dQHaE7?w=295&h=195&c=7&r=0&o=5&pid=1.7"
+                                    class="d-block w-100" alt="cooking">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="text-white">Cooking</h5>
+                                    <p class="text-white">My hobby is cooking different cuisine and I learned from
+                                        Youtube, right now I
+                                        have cooked Italian cuinsine, Korean cuisine, and Chinese cuisine at home.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://th.bing.com/th/id/OIP.ZMc66CqWUqtcbt1O8Mz84QHaD5?w=332&h=180&c=7&r=0&o=5&pid=1.7"
+                                    class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="text-white">Marvel Movie and TV</h5>
+                                    <p class="text-white">I'm a fan of Marvel
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden"></span>
+                        </button>
+                    </div>
+                    <!-- Carousel wrapper -->
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="skills-section" id="skills">
+            <div class="container-fluid"><!--container-->
+                <h1 class="text-center">Skills</h1>
+                <div class="skills-container row">
+                    <div class="coding col-md-4">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 85%"
+                                aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">HTML</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
+                                style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">CSS</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 70%"
+                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar"
+                                style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">JQery</div>
+                        </div>
+
+
+                    </div>
+                    <div class="graphic-design col-md-4">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 80%"
+                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Canvas
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-primary" role="progressbar"
+                                style="width: 65%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Photoshop
+                            </div>
+                        </div>
+
+
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar"
+                                style="width: 60%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Indesign
+                            </div>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-danger" role="progressbar"
+                                style="width: 60%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Illustrator
+                            </div>
+                        </div>
+                    </div>
+                    <div class="web-design col-md-4">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar"
+                                style="width: 70%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Figma
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-danger" role="progressbar"
+                                style="width: 75%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Adobe
+                                XD
+                            </div>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
+                                style="width: 60%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                WordPress
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 60%"
+                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                Google Web Designer
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            </div><!--container-->
+        </section><!--skills section-->
+
+        <section class="projects" id="projects">
+
+            <div class="container-fluid">
+
+                <h1 class="text-center">Recent Projects</h1>
+
+                <!--tabs and contents-->
+                <div class="tabs">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">All</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">UX designs</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">UI Designs</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">JS apps</button>
+                        </li>
+                    </ul>
+                </div><!--tabs-->
+
+
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-home-tab">
+                        <div class="row gx-0">
+                            <div class="col-lg-4">
+                                <a class="portfolio-item" href="#!">
+                                    <div class="caption">
+                                        <div class="caption-content">
+                                            <div class="h2">Stationary</div>
+                                            <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <img class="img-fluid" src="imgs/paper.png" alt="..." />
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a class="portfolio-item" href="#!">
+                                    <div class="caption">
+                                        <div class="caption-content">
+                                            <div class="h2">Stationary</div>
+                                            <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <img class="img-fluid" src="imgs/paper.png" alt="..." />
+                                </a>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <a class="portfolio-item" href="#!">
+                                    <div class="caption">
+                                        <div class="caption-content">
+                                            <div class="h2">Ice Cream</div>
+                                            <p class="mb-0">A dark blue background with a colored pencil, a clip, and a
+                                                tiny ice cream cone!</p>
+                                        </div>
+                                    </div>
+                                    <img class="img-fluid" src="imgs/paper.png" alt="..." />
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a class="portfolio-item" href="#!">
+                                    <div class="caption">
+                                        <div class="caption-content">
+                                            <div class="h2">Strawberries</div>
+                                            <p class="mb-0">Strawberries are such a tasty snack, especially with a
+                                                little sugar on top!</p>
+                                        </div>
+                                    </div>
+                                    <img class="img-fluid" src="imgs/paper.png" alt="..." />
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a class="portfolio-item" href="#!">
+                                    <div class="caption">
+                                        <div class="caption-content">
+                                            <div class="h2">Workspace</div>
+                                            <p class="mb-0">A yellow workspace with some scissors, pencils, and other
+                                                objects.</p>
+                                        </div>
+                                    </div>
+                                    <img class="img-fluid" src="imgs/paper.png" alt="..." />
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a class="portfolio-item" href="#!">
+                                    <div class="caption">
+                                        <div class="caption-content">
+                                            <div class="h2">Workspace</div>
+                                            <p class="mb-0">A yellow workspace with some scissors, pencils, and other
+                                                objects.</p>
+                                        </div>
+                                    </div>
+                                    <img class="img-fluid" src="imgs/paper.png" alt="..." />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    ...</div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    ...</div>
+            </div>
+
+            </div>
+        </section>
+
+
+
+        <section class="contact" id="contact">
+
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                data-bs-whatever="@contact">Contact Me</button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Contact</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Close">X</button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="col-form-label">Name:</label>
+
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="Email" class="col-form-label">Email:</label>
+                                    <input type="text" class="form-control" placeholder="Email"
+                                        aria-describedby="basic-addon2">
+                                    <span class="input-group-text" id="basic-addon2">@gmail.com</span>
+                                </div>
+                                <div class="mb-4">
+                                    <label for="message-text" class="col-form-label">Message:</label>
+                                    <textarea class="form-control" id="message-text"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Send message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </section>
+
+
+
+
+
+
+        <script src="app.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+
+
+    </body>
+
+</html>

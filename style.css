@@ -1,0 +1,314 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:#7B95B7;
+}
+
+
+.logo{
+    margin-left: 24px;
+    margin-right: 10px;
+}
+
+.navbar-nav li{
+    padding-right: 40px;
+}
+
+.nav-link:hover{
+    font-weight: bolder;
+}
+.home-page{
+    
+    width: 100%;
+    height:100%;
+    background-color:#E0C3B3 ;
+    padding-top: 100px;
+    
+}
+
+.home-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.home-contents{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.myPortrait{
+    height: 100%;
+    width: 100%;
+   
+}
+h4{
+    color: white;
+    
+}
+h4.top{
+    padding-bottom: 200px;
+    padding-left: 100px;
+}
+
+.btn{
+    text-align: center;
+}
+
+h4.bottom{
+padding-top: 350px;
+}
+
+.media ul li{
+    margin: 10px;
+    border-radius: 100%;
+    padding: 10px;
+    background-color: #E0C3B3;
+    border: none;
+}
+@media(max-width:768px) {
+
+    h4{
+        font-size: 2px;
+    }
+    .myPortrait{
+        width: 100%;
+    }
+}
+
+@media(max-width:400px) {
+    h4 {
+       display: none;
+    }
+
+  
+}
+/* story section */
+
+.story-section{
+    margin-top: 5%;
+}
+.story-content1{
+    display: flex-column;
+    
+}
+.text-center{
+    font-size: 40px;
+    margin-bottom: 1em;
+   
+}
+
+.text-box{
+    padding-right: 20%;
+    padding-left: 20%;
+
+}
+
+/* story content2 */
+.story-content2{
+    padding-top: 100px;
+}
+.intro{
+    padding-top: 15%;
+    padding-left: 1rem;
+}
+
+.glass-image{
+    height:100%;
+    width: 100%;
+}
+
+
+#fun-setion-title{
+    display: flex;
+    padding-right: 30%;
+    padding-left: 40%;
+    padding-top: 100px;
+}
+
+.carousel{
+  margin:100px;
+
+}
+
+.carousel-inner .carousel-item img {
+    height: 400px;
+    margin: 0 auto;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+    height: 200px;
+}
+
+
+.progress{
+    margin:50px 20px;
+    
+}
+
+
+/* projects section css */
+ 
+
+ .nav-link{
+    cursor: pointer;
+    margin-top: 30px;
+ }
+
+  .nav-link:hover {
+      background-color: #E0C3B3;
+    font-size: 1rem;
+  }
+
+@media(max-width:768px) {
+   
+    .carousel-inner .item img {
+        height: 200px;
+        width: 300px;
+    }
+
+    .carousel-inner h5 {
+        font-size: 23px;
+    }
+}
+
+@media(max-width:400px) {
+    .carousel-inner .item img {
+        width: 100%;
+        height: 100px;
+    }
+
+    .carousel-inner h5 {
+        font-size: 17px;
+    }
+
+    .navbar-custom .navbar-brand {
+        font-size: 10px;
+    }
+}
+
+
+.tab-content{
+    margin:30px 100px;
+}
+.col-lg-4{
+    margin-bottom:20px;
+}
+.portfolio-item {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    max-width: 530px;
+    margin: auto auto 1rem;
+}
+
+.portfolio-item .caption {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(33, 37, 41, 0.2);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.portfolio-item .caption .caption-content {
+    color: #fff;
+    margin: auto 2rem 2rem;
+}
+
+.portfolio-item .caption .caption-content h2,
+.portfolio-item .caption .caption-content .h2 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.portfolio-item .caption .caption-content p {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+@media (min-width: 992px) {
+    .portfolio-item {
+        max-width: none;
+        margin: 0;
+    }
+
+    .portfolio-item .caption {
+        transition: background-color 0.7s, -webkit-clip-path 0.25s ease-out;
+        transition: clip-path 0.25s ease-out, background-color 0.7s;
+        transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
+        -webkit-clip-path: inset(0px);
+        clip-path: inset(0px);
+    }
+
+    .portfolio-item .caption .caption-content {
+        transition: opacity 0.25s;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    .portfolio-item img {
+        transition: -webkit-clip-path 0.25s ease-out;
+        transition: clip-path 0.25s ease-out;
+        transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
+        -webkit-clip-path: inset(-1px);
+        clip-path: inset(-1px);
+    }
+
+    .portfolio-item:hover img {
+        -webkit-clip-path: inset(2rem);
+        clip-path: inset(2rem);
+    }
+
+    .portfolio-item:hover .caption {
+        background-color: rgba(29, 128, 159, 0.9);
+        -webkit-clip-path: inset(2rem);
+        clip-path: inset(2rem);
+    }
+}
+.tabs{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.tabs ul li{
+    padding: 30px;
+}
+
+
+
+/* contact section */
+
+.contact{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.mb-3{
+    display: flex;
+}
+
+label{
+    padding-right: 15px;
+}
+
+.btn-close{
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+   
+}
